@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare | Apex Tracker</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="compare">
+<nav><div class="wrap">
+  <a class="logo" href="index.html"><i></i>Apex Tracker</a>
+  <ul>
+    <li><a href="index.html" data-r="home">Home</a></li><li><a href="players.html" data-r="players">Players</a></li>
+    <li><a href="compare.html" data-r="compare">Compare</a></li><li><a href="maps.html" data-r="maps">Maps</a></li>
+    <li><a href="ranked.html" data-r="ranked">Ranked</a></li><li><a href="news.html" data-r="news">News</a></li>
+    <li><a href="status.html" data-r="status">Server status</a></li>
+  </ul>
+</div></nav>
+<main>
+<div class="page">
+<section class="s"><div class="wrap">
+  <h2 class="rv">Compare players</h2>
+  <p class="lead rv" style="--d:.1s">The higher number in each row is highlighted.</p>
+  <form class="cf" id="cf" style="animation:none;opacity:1;max-width:none">
+    <input id="ca" placeholder="First player" required aria-label="First player">
+    <select id="cap" aria-label="First platform"><option value="PC">PC</option><option value="PS4">PlayStation</option><option value="X1">Xbox</option></select>
+    <input id="cb" placeholder="Second player" required aria-label="Second player">
+    <select id="cbp" aria-label="Second platform"><option value="PC">PC</option><option value="PS4">PlayStation</option><option value="X1">Xbox</option></select>
+    <button type="submit">Compare</button>
+  </form>
+  <div id="cmsg" role="status"></div>
+  <div id="cout" style="margin-top:24px"></div>
+</div></section>
+</div>
+</main>
+<footer><div class="wrap"><span>Apex Tracker. Unofficial fan project.</span><span>Not affiliated with EA or Respawn.</span></div></footer>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
