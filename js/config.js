@@ -1,2 +1,2 @@
 // Paste your key from https://portal.apexlegendsapi.com between the quotes.
-const API_KEY="PASTE_YOUR_API_KEY_HERE";
+const API_KEY="51b712105226a331625aa22fb29983eb";
